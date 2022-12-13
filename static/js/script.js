@@ -49,6 +49,19 @@ function redirecionarContato () {
     window.location.href = "contato.html";
 }
 
+// botão contato
+
+const buttonContact = document.querySelector("#button-contact")
+const boxOutside = document.querySelector(".box-outside")
+
+buttonContact.addEventListener("click", () => {
+    if(boxOutside.style.display === 'block') {
+        boxOutside.style.display = 'none';
+    } else {
+        boxOutside.style.display = 'block';
+    }
+});
+
 // function menuShow() {
 //     let menuMobile = document.querySelector('.hamburguer');
 //     if (menuMobile.classList.contains('active')) {

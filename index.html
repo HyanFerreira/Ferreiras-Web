@@ -15,14 +15,14 @@
     <header class="header">
         <nav class="nav-menu">
             <div class="logo">
-                <a href="#"><img class="logo-img" src="/static/img/logo-color-01.png" alt="logo"></a>
+                <a href="index.html"><img class="logo-img" src="/static/img/logo-color-01.png" alt="logo"></a>
             </div>
             <div>
                 <ul class="ul-menu">
-                    <li class="li-item"><a href="#" class="a-link">Início</a></li>
-                    <li class="li-item"><a href="#" class="a-link">Projetos</a></li>
-                    <li class="li-item"><a href="#" class="a-link">Serviços</a></li>
-                    <li class="li-item"><a href="#" class="a-link">Contato</a></li>
+                    <li class="li-item"><a href="index.html" class="a-link">Início</a></li>
+                    <li class="li-item"><a href="/layout/error404.html" class="a-link">Projetos</a></li>
+                    <li class="li-item"><a href="/layout/error404.html" class="a-link">Serviços</a></li>
+                    <li class="li-item"><a href="#button-contact" class="a-link">Contato</a></li>
                 </ul>
             </div>
             <div class="hamburguer">
@@ -38,12 +38,14 @@
             <div class="overlay-image">
                 <div class="box-container">
                     <div class="box-content">
-                        <h1>Precisa de ajuda com TI?</h1>
-                        <p>Nós podemos ajudar. Com rápidez, e ainda por cima, com alta qualidade.</p>
+                        <h1>Seja bem-vindo(a)</h1>
+                        <p>Em breve, estaremos 100% na ativa</p>
                     </div>
                 </div>
             </div>
         </div>
+
+
 
         <div class="slide-carousel">
             <div class="slide-container swiper">
@@ -57,23 +59,8 @@
                                 <img class="img" src="static/img/manutenção-02.png" alt="">
                             </div>
                             <div class="card-button">
-                                <button class="button">Saiba Mais</button>
+                                <button class="button"><a class="redirecionaServicos" href="/layout/error404.html">Saiba Mais</a></button>
                             </div>
-                            <!-- <div class="image-content">
-                                <span class="overlay"></span>
-    
-                                <div class="card-image">
-                                    <img src="images/profile1.jpg" alt="" class="card-img">
-                                </div>
-                            </div>
-    
-                            <div class="card-content">
-                                <h2 class="name">Ha</h2>
-                                <p class="description">The lorem text the section that contains header with having open
-                                    functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
-    
-                                <button class="button">View More</button>
-                            </div> -->
                         </div>
                         <div class="card swiper-slide">
                             <div class="card-title">
@@ -83,7 +70,7 @@
                                 <img class="img" src="static/img/desenvolvimento-web-01.png" alt="">
                             </div>
                             <div class="card-button">
-                                <button class="button">Saiba Mais</button>
+                                <button class="button"><a class="redirecionaServicos" href="/layout/error404.html">Saiba Mais</a></button>
                             </div>
                         </div>
                         <div class="card swiper-slide">
@@ -94,7 +81,7 @@
                                 <img class="img" src="static/img/design-grafico-03.png" alt="">
                             </div>
                             <div class="card-button">
-                                <button class="button">Saiba Mais</button>
+                                <button class="button"><a class="redirecionaServicos" href="/layout/error404.html">Saiba Mais</a></button>
                             </div>
                         </div>
                         <div class="card swiper-slide">
@@ -105,7 +92,7 @@
                                 <img class="img" src="static/img/sistemas-operacionais-02.png" alt="">
                             </div>
                             <div class="card-button">
-                                <button class="button">Saiba Mais</button>
+                                <button class="button"><a class="redirecionaServicos" href="/layout/error404.html">Saiba Mais</a></button>
                             </div>
                         </div>
                         <div class="card swiper-slide">
@@ -116,7 +103,7 @@
                                 <img class="img" src="static/img/desenvolvimento-web-02.png" alt="">
                             </div>
                             <div class="card-button">
-                                <button class="button">Saiba Mais</button>
+                                <button class="button"><a class="redirecionaServicos" href="/layout/error404.html">Saiba Mais</a></button>
                             </div>
                         </div>
                     </div>
@@ -124,6 +111,55 @@
                 <div class="swiper-button-next swiper-navBtn"></div>
                 <div class="swiper-button-prev swiper-navBtn"></div>
                 <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+        <div class="box-container-contact">
+            <div class="box-before">
+                <h1>Interesse em contratar os nossos serviços?</h1>
+                <p>Entre em contato conosco enviando um formulário.</p>
+            </div>
+            <div class="button-contact-content">
+                <button type="button" name="button" id="button-contact" class="button-contact">CONTATO</button>
+            </div>
+            <div class="box-outside">
+                <div class="box-contact">
+                    <form action="/layout/error404.html">
+                        <fieldset>
+                            <legend>Formulário de Contato</legend>
+                            <br>
+                            <br>
+                            <div class="inputBox-contact contact-p-15">
+                                <input type="text" name="name" id="name" class="inputUser" required>
+                                <label for="name" class="label-input contact-p-15">Nome</label>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="inputBox-contact contact-p-15">
+                                <input type="text" name="email" id="email" class="inputUser" required>
+                                <label for="email" class="label-input contact-p-15">Email</label>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="inputBox-contact contact-p-15">
+                                <input type="tel" name="phone" id="phone" class="inputUser" required>
+                                <label for="phone" class="label-input contact-p-15">Número</label>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="inputBox-contact contact-p-15">
+                                <input type="text" name="mesage" id="mesage" class="inputUser" required>
+                                <label for="mesage" class="label-input contact-p-15">Mensagem</label>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <input type="submit" name="submit" class="submit">
+                            <br>
+                            <br>
+                        </fieldset>
+                    </form>
+                </div>
             </div>
         </div>
     </main>
